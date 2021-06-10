@@ -1,0 +1,36 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+h2 {
+    margin-bottom: 80px;
+}
+.Pregunta a {
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    padding: 20px;
+    width: 200px;
+    display: inline-block;
+    transition: 0.4s;
+}
+.Pregunta a:hover {
+    background: black;
+    transition: 0.4s;
+    color: white;
+}
+#dos, #tres, #cuatro, #cinco, #seis, #siete {
+    display: none;
+}
+#correcto, #incorrecto {
+    display: none;
+    font-weight: bold;
+    font-size: 30px ;
+    margin-bottom: 40px;
+}
+#correcto {
+    color: green;
+}
+#incorrecto {
+    color: red;
+}       
